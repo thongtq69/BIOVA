@@ -77,6 +77,7 @@ const Header = () => (
     <div className="container header-container">
       <a href="#hero" className="header-logo">
         <img src="/logo-removebg-preview.png" alt="BIOVA Logo" className="header-logo-img" />
+        <span className="header-brand-name">BIOVA</span>
       </a>
       <nav className="header-nav">
         <a href="#benefits">Ưu điểm</a>
@@ -104,6 +105,7 @@ function App() {
           {/* Hero Logo - Large centered */}
           <div className="hero-logo-wrapper">
             <img src="/logo-removebg-preview.png" alt="BIOVA Logo" className="hero-main-logo" />
+            <h2 className="hero-brand-name">BIOVA</h2>
           </div>
           
           <span className="hero-tagline">Bột khô dầu đậu tương lên men</span>

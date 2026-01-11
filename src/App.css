@@ -72,12 +72,21 @@
 .header-logo {
   display: flex;
   align-items: center;
+  gap: var(--spacing-sm);
 }
 
 .header-logo-img {
   height: 50px;
   width: auto;
   object-fit: contain;
+}
+
+.header-brand-name {
+  font-family: var(--font-family-heading);
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary-green-dark);
+  letter-spacing: 0.05em;
 }
 
 .header-nav {
@@ -131,6 +140,7 @@
 /* Hero Logo - Modern Style */
 .hero-logo-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: var(--spacing-md);
@@ -147,6 +157,20 @@
 .hero-main-logo:hover {
   transform: scale(1.05);
   filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.4));
+}
+
+.hero-brand-name {
+  font-family: var(--font-family-heading);
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: 0.15em;
+  margin-top: var(--spacing-sm);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(180deg, #ffffff 0%, #c5e1a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-tagline {
